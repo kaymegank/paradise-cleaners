@@ -1,0 +1,82 @@
+/*=========================================
+
+Colours:
+
+
+
+
+============================================*/
+
+/*--------------------------
+General Styles
+--------------------------*/
+
+/*--------------------------
+Typography
+--------------------------*/
+
+/*--------------------------
+Layout
+--------------------------*/
+#pci-header {
+  background: #00bac4;
+  position: fixed;
+  padding: 0;
+  height: 100%;
+  width: 70px;
+  max-width: 70px;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+  transition: all .5s ease-in-out 0s;
+}
+
+.pci-ease {
+  -webkit-transition: all .5s ease-in-out 0s;
+  transition: all .5s ease-in-out 0s;
+}
+
+.pci-site_title{
+  font-size: 1.333333333rem;
+  line-height: 1;
+  color: #fff;
+  white-space: nowrap;
+  position: absolute;
+  transform: translate(-50%) rotate(-90deg);
+  transform-origin: top;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all .3s ease-in-out 0s;
+  transition: all .3s ease-in-out 0s;
+}
+
+
+
+
+
+/*--------------------------
+Navigation
+--------------------------*/
+h1 {
+  display: block;
+  font-size: 2em;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -moz-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -moz-margin-end: 0px;
+}
+
+
+
+
+/*--------------------------
+Global Styles
+--------------------------*/
