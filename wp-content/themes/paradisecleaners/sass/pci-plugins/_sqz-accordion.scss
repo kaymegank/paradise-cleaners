@@ -1,0 +1,53 @@
+//accordion
+
+//bootstrap mixins
+@import "bootstrap/mixins/panels";
+@import "bootstrap/mixins/border-radius";
+
+
+//bootstrap components
+@import "bootstrap/component-animations";
+//@import "bootstrap/panels";
+
+
+.sqz-panel {
+    border-bottom: solid 1px $grayColor;
+    .panel-heading {
+        background: none;
+        padding: 10px 20px;
+        position: relative;
+        .panel-title {
+            margin: 0;
+            text-transform: none;
+            font-size: 1rem;
+            @include sqz-bold;
+            
+            a {
+                display: block;
+                color: $primaryColor;
+                border-bottom: none !important;
+                
+                &:before {
+                    content: '';
+                    width: 8px;
+                    height: 8px;
+                    border-top: solid 2px $secondaryColor;
+                    border-right: solid 2px $secondaryColor;
+                    display: inline-block;
+                    transform: rotate(45deg);
+                    position: absolute; 
+                    left: 0;
+                    top: 20px;
+                }
+            }
+        }
+    }
+    .panel-body {
+        background: none;
+        border: none;
+        padding: 0 20px;
+        .sqz-thumb {
+            margin-bottom: 0;
+        }
+    }
+}
