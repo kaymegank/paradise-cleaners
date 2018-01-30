@@ -1,0 +1,146 @@
+/*=========================================
+    Author: Coding Corgi
+    Date: December 2017
+
+    Colours Palette:
+    ---------------
+
+
+    Font Family:
+
+
+============================================*/
+
+
+/*--------------------------
+General Styles
+--------------------------*/
+
+body {
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 14px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+.container {
+  width: 924px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+
+
+.pci-title {
+  font-family: 'cursive-script.tff',  font-family: 'cursive-script.tff', Helvetica, Arial, sans-serif;
+  color: #fff;
+  display:block;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);/*For IE support*/
+  }
+
+.navbar {
+  background-color: transparent;
+}
+
+
+.sidenav {
+  background: #2dadf7;
+  display: block;
+  height: 100%; /* 100% Full-height */
+  left: 0;
+  max-width: 70px;
+  opacity: 1;
+  padding: 0;
+  padding-top: 30px; /* Place content 60px from the top */
+  position: fixed;/* Stay in place */
+  top: 0;/* Stay at the top */
+  visibility: visible;
+  width: 60px;
+  z-index: 99;
+  -webkit-transition: all .5s ease-in-out 0s;
+  transition: all .5s ease-in-out 0s;
+}
+
+
+/*--------------------------
+Header
+--------------------------*/
+#pci-logo {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+}
+
+#pci-logo img {
+  width:100%;
+  height: auto;
+}
+
+/*--------------------------
+Typography
+--------------------------*/
+@font-face {
+  font-family: 'cursive-script.ttf';
+  font-weight: bold;
+  src: url(fonts/Cursive-Script/cursive-script.ttf);
+}
+
+/*--------------------------
+Layout
+--------------------------*/
+li {
+
+}
+
+#banner {
+  background: #ccc url('../images/banner4.jpg') top center no-repeat;
+  height: 650px;
+
+}
+
+span {
+  color: #36317f;
+}
+/* Header */
+
+#pci-page {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*--------------------------
+Navigation
+--------------------------*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section div nav {
+  text-align: center;
+}
+
+section div nav div ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  line-height: 50px;
+}
+
+section div nav div ul li {
+  display: inline;
+  padding: 0 20px;
+}
+
+
+/*--------------------------
+Global Styles
+--------------------------*/

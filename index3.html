@@ -2,73 +2,70 @@
 
 <html lang="en">
   <head>
-    <meta charset="utf-8" name="viewport">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Paradise Cleaners</title>
 
     <!-- Logo Icon -->
     <link rel="icon" href="images/logo_2.png">
 
-
     <!-- Meta Description -->
     <meta name="description" content="Paradise Cleaners is a janitorial service company based in Hawaii">
 
     <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
 
     <!--Normalize-->
     <link rel="stylesheet" href="css/normalize.css">
 
     <!--Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css2/style.css">
   </head>
   <body >
     <!--Header-->
-    <header id="pci-header">
+    <header id="pci-header" class="sidenav">
       <a href="index.html">
         <div id="pci-logo">
           <img src="images/logo_3.png" alt="Paradise Cleaners">
-        </div><!--end #pci-logo-->
+        </div><!--// #pci-logo-->
         <h1 class="pci-title">Paradise Cleaners</h1>
       </a>
-    </header><!--end #pci-header-->
+    </header><!--// #pci-header-->
 
     <div id="pci-page">
       <section id="banner">
         <div id="pci-navigation">
-          <nav id="pci-main_navigation">
-            <ul id="menu-main-menu" class="container">
-              <li id="services">
-                <a href="#">Services</a>
-                  <ul class="sub-menu">
+          <nav id="pci-main_navigation" class="navbar navbar-inverse navbar-right">
+            <div class="container-fluid">
+              <ul id="menu-main-menu" class="nav navbar-nav navbar-right">
+                <li id="services" class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
                     <li id="office-cleaning">
-                      <a href="">Office Cleaning</a>
+                      <a href="#our-services">Office Cleaning</a>
                     </li><!--// #office-cleaning-->
                     <li id="home-cleaning">
-                      <a href="">Home Cleaning</a>
+                      <a href="#our-services">Home Cleaning</a>
                     </li><!--// #home-cleaning-->
                     <li id="industrial-cleaning">
-                      <a href="">Industrial Cleaning</a>
+                      <a href="#our-services">Industrial Cleaning</a>
                     </li><!--// #industrial-cleaning-->
-                  </ul> <!--// .sub-menu-->
-              </li><!--// #services-->
-              <li id="about">
-                <a href="about.html">About</a>
-              </li><!--// #about-->
-              <li id="contact-us">
-                <a href="">Contact Us</a>
-              </li><!--// #contact-us-->
-            </ul><!--// #menu-main-menu .container-->
+                  </ul><!--// .dropdown-menu-->
+                </li><!--// #services-->
+                <li id="about">
+                  <a href="about.html">About</a>
+                </li><!--// #about-->
+                <li id="contact-us">
+                  <a href="">Contact Us</a>
+                </li><!--// #contact-us-->
+              </ul><!--// #menu-main-menu-->
+            </div><!--// .container-fluid-->
           </nav><!--// #pci-main_navigation-->
           <button class="pci-full_toggle_menu">
             <span class="pci-menu_bars"></span>
           </button><!--end .pci-full_toggle_menu-->
         </div><!--end #pci-navigation-->
-        <picture>
-          <img src="" alt="">
-        </picture>
         <div class="pci-banner_caption">
           <div class="container">
             <div class="row">
